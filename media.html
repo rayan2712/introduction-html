@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Multi Media in HTML</title>
+    <style>
+        .hover-image{
+            height: 250px;
+            width: 250px;
+            border: 5px solid lightblue;
+            border-radius: 25px;
+
+
+        }
+        .audio-player{
+            display: flex;
+            align-items: center;
+            background-color: #1DB954;
+            color: ghostwhite;
+            border-radius: 12px;
+            padding: 10px;
+            margin-top: 30px;
+            max-width: 500px;
+
+        }
+    </style>
+    </head>
+
+<body>
+<h2>Image with hover and border</h2>
+<img src="https://cdn.britannica.com/35/238335-050-2CB2EB8A/Lionel-Messi-Argentina-Netherlands-World-Cup-Qatar-2022.jpg" alt="lionel messi image" class="hover-image">
+<h2>  Spotify Style Audio Player</h2>
+<div class="audio-player">
+    <img src="https://upload.wikimedia.org/wikipedia/en/8/80/Ed_Sheeran_Perfect_Single_cover.jpg" alt="ablum art" height="80" width="80">
+    <div class="track-info">
+<h4>Track Name: Perfect</h4>
+<p>Artist: ED Sheeran</p>
+<audio controls>
+<source src="https://drive.google.com/drive/folders/16Im5q8oL18dU0b5hdHu1lCBEJPw4WMRm?usp=sharing" type="audio/mpg">
+</audio>
+    </div>
+</div>
+<div>
+    <video controls poster="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4RsCfoBYE4gan-EGNAvN3uRY0x43GwyK5A&s">
+     <source src="https://drive.google.com/drive/folders/16Im5q8oL18dU0b5hdHu1lCBEJPw4WMRm?usp=sharing" type="video/mp4">
+    </video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y59fqZ6WU6M" title="Youtube Video"><iframe>
+</div>
+</body>
+
+</html>
