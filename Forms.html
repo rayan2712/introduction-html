@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Form in HTML.
+
+        </title>
+
+        <style>
+            form{
+                background-color: lightgreen;
+                margin: 30px;
+                border-radius: 15px;
+                border: 5px solid lightblue;
+                max-width: 400px;
+
+
+            }
+
+            #reg{
+                height: 60px;
+                width: 80px;
+                border-radius: 10px;
+                margin: 40px;
+                background-color: cyan;
+                color: white;
+                    }
+
+            body{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+
+
+            }
+        </style>
+    </head>
+
+<body>
+    <form>
+       <label>First name</label> <br>
+       <input type="text" placeholder="Firstname" required> <br>
+
+        <label>Last name</label> <br>
+        <input type="text" placeholder="Lastname" required> <br>
+
+        <label>Email</label> <br>
+        <input type="email" placeholder="xyz@gmail.com"> <br>
+
+        <label>Password</label> <br>
+        <input type="password" placeholder="At least 8 characters"> <br>
+
+        <label>Number</label> <br>
+        <input type="number" placeholder="numbers only"> <br>
+         
+        <!-- radio button -->
+        <label>Gender</label> <br>
+        <input type="radio" name="Gender" value="Male">Male <br>
+        <input type="radio" name="Gender" value="Female">Female <br>
+        <input type="radio" name="Gender" value="Custom">Custom <br>
+
+        <!-- input type checkbox -->
+         <label>Technical Skills</label><br>
+         <input type="checkbox" name="Skill.1" value="HTML">HTML <br>
+         <input type="checkbox" name="Skill.2" value="CSS">CSS <br>
+         <input type="checkbox" name="Skill.3" value="JS">Java script <br>
+
+         <!-- Select tag -->
+         <label>Country</label>
+         <select name="Country">
+            <option>USA</option>
+            <option>Bangladesh</option>
+            <option>India</option>
+            <option>UAE</option>
+            <option>France</option>
+            <option>UK</option>
+            <option>Italy</option>
+            <option>Pakistan</option>
+            <option>Germany</option>
+            <option>Russia</option>
+            <option>Spain</option>
+            <option>China</option>
+            <option>Indonesia</option>
+            <option>Thailand</option>
+            <option>Malaysia</option>
+         </select>
+         <br>
+         <!-- textarea tag -->
+          <label>Adress</label> <br>
+          <textarea rows="4" cols="30">
+Write you Address
+          </textarea> <br>
+
+          <label>Upload photo</label> <br>
+          <input type="file" accept="image/*"> <br>
+          <label>Upload resume</label> <br>
+          <input type="file"> <br>
+
+          <label>Date of Birth</label> <br>
+          <input type="date"> <br>
+
+          <input type="submit" name="register" value="register" id="reg">
+    </form>
+
+
+</body>
+
+</html>
