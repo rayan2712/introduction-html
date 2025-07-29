@@ -1,0 +1,26 @@
+h2{
+            background-color: rgb(255, 70, 70);
+            color: black;
+            margin: 20px;
+}
+
+#demo{
+            width: 250px;
+            height: 200px;
+            background-color: rgb(229, 255, 112);
+            color: rgb(206, 49, 180);
+            margin: 20px;
+            border: 2px solid palevioletred;
+
+}
+
+.demo1{
+            width: 250px;
+            height: 200px;
+            background-color: rgb(66, 114, 247);
+            color: rgb(238, 255, 4);
+            margin: 20px;
+            border: 10px solid seagreen; 
+            border-radius: 15px; 
+
+}
