@@ -1,0 +1,8 @@
+def _init_(self):
+    print('employee created. ')
+    
+def _del_(self):
+    print('destructor called, employee deleted. ')
+    
+obj = Employee()
+del obj
